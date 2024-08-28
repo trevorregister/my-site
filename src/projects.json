@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Random Trek",
+        "description": "Picks a random episode of Star Trek to watch.",
+        "url": "https://randomtrek.trevorregister.com",
+        "image": "random-trek.png",
+        "github": "https://github.com/trevorregister/random-trek",
+        "rationale": "lorem ipsum dolor sit amet consectetur adipiscing elit"
+    },
+    {
+        "title": "Volunteer Management System",
+        "description": "A web application for managing volunteers.",
+        "url": "https://volunteer-app.trevorregister.com",
+        "image": "volunteer-app.png",
+        "github": "https://github.com/trevorregister/regional-burn-volunteering/login",
+        "rationale": "lorem ipsum dolor sit amet consectetur adipiscing elit"
+    }
+]

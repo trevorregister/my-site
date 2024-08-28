@@ -1,13 +1,12 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld />
+      <navigation-panel/>
+      <router-view />
     </v-main>
-
-    <AppFooter />
   </v-app>
 </template>
 
 <script setup>
-  //
+import NavigationPanel from '@/components/NavigationPanel.vue'
 </script>
