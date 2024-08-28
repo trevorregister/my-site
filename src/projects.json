@@ -10,9 +10,9 @@
     {
         "title": "Volunteer Management System",
         "description": "A web application for managing volunteers.",
-        "url": "https://volunteer-app.trevorregister.com",
+        "url": "https://volunteer-app.trevorregister.com/login",
         "image": "volunteer-app.png",
-        "github": "https://github.com/trevorregister/regional-burn-volunteering/login",
+        "github": "https://github.com/trevorregister/regional-burn-volunteering",
         "rationale": "lorem ipsum dolor sit amet consectetur adipiscing elit"
     }
 ]
