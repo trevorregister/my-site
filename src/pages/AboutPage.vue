@@ -11,6 +11,9 @@
           <v-card-title>
             <h2>My Story</h2>
           </v-card-title>
+          <v-card-subtitle>
+            <a href="https://github.com/trevorregister/my-site" target="blank">See this site on GitHub</a>
+          </v-card-subtitle>
           <v-card-text>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
