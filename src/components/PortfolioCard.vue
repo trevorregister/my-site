@@ -1,10 +1,14 @@
 <template>
-    <v-card>
+    <v-card @click="expandProject(project)">
         <v-card-title>
             {{ project.title }}
         </v-card-title>
         <v-card-text>
             {{ project.description }}
+        </v-card-text>
+        <v-card-text v-if="showFullCard">
+            <h2>Rationale</h2>
+            <p>{{ project.rationale }}</p>
         </v-card-text>
         <v-card-actions>
             <a :href="project.url" target="blank">
@@ -27,8 +31,16 @@ defineProps({
         description: String,
         url: String,
         image: String,
-        gitHub: String
-    }
+        gitHub: String,
+        rationale: String,
+    },
+    showFullCard: Boolean
 })
+
+const emit = defineEmits(['expandProject'])
+
+const expandProject = (project) => {
+    emit('expandProject', project)
+}
 
 </script>
