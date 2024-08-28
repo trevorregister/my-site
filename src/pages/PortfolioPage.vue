@@ -6,26 +6,23 @@
             <p>Here are some of the projects I have worked on.</p>
         </v-col>
       </v-row>
-      <v-row>
-        <v-container v-if="!projectCardExpanded">
+      <v-row v-if="!projectCardExpanded">
           <v-col v-for="project in projects" :key="project.id" md="6">
               <portfolio-card 
                 @expand-project="handleExpandProject(project)" 
                 :project="project"
-                :showFullCard="false"
               />
           </v-col>
-      </v-container>
-      <v-container v-else>
-          <v-col>
-              <portfolio-card 
-                @click="collapseProject" 
-                :project="expandedProject"
-                :showFullCard="true"
-              />
-          </v-col>
-      </v-container>
       </v-row>
+        <v-row v-else>
+            <v-col>
+                <portfolio-card 
+                  @click="collapseProject" 
+                  :project="expandedProject"
+                  :showFullCard="true"
+                />
+            </v-col>
+        </v-row>
     </v-container>
   </template>
   
