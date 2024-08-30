@@ -16,21 +16,21 @@
             {{ project.shortDescription }}
         </v-card-text>
         <v-card-text v-if="showFullCard">
-            <h2>Goals</h2>
+            <h2 v-if="project.goals.length > 0">Goals</h2>
             <v-list :items="project.goals"/>
-            <h2>What does it do?</h2>
+            <h2>Tell me more</h2>
             <p>{{ project.longDescription }}</p>
         </v-card-text>
         <v-card-actions>
             <v-btn @click="expandProject(project)">
                 {{showFullCard ? "Less" : "More"}}
             </v-btn>
-            <a :href="project.url" target="blank">
+            <a v-if="project.url" :href="project.url" target="blank">
                 <v-btn color="primary" text>
                     View
                 </v-btn>
             </a>
-            <a :href="project.github" target="blank">
+            <a v-if="project.github" :href="project.github" target="blank">
                 <v-btn color="primary" text>
                     GitHub
                 </v-btn>

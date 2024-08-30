@@ -1,22 +1,57 @@
 [
     {
+        "title": "Volunteer Management System",
+        "shortDescription": "A tool to manage volunteers for regional Burning Man events.",
+        "url": "https://volunteer-app.trevorregister.com/login",
+        "image": "volunteer-app.png",
+        "github": "https://github.com/trevorregister/regional-burn-volunteering",
+        "longDescription": "My first full stack application. As a long-time attendee and leader within the Georgia Burning Man community, I wanted to create a tool to help manage volunteers for our annual event as this is a significant need within the community. This app allows users to sign up for shifts, view their schedule, and track their volunteer hours. It also allows team and event leads to create shifts, assign volunteers, and track volunteer hours. I also wanted to apply Clean Architecture principles to my backend as previous projects would have been cumbersome to scale and maintain. I opted to design many elements 'from scratch' as much as I could, such as my authentication system. I felt it important for me to understand fundamental principles before relying on libraries or frameworks.",
+        "technologies": ["Vue", "Node", "Express", "MongoDB"],
+        "goals": ["Deploy a full stack app", "Learn Clean Architecture", "Learn Vue"],
+        "order": 1
+    },
+    {
         "title": "Random Trek",
         "shortDescription": "Picks a random episode of Star Trek to watch.",
         "url": "https://randomtrek.trevorregister.com",
         "image": "random-trek.png",
         "github": "https://github.com/trevorregister/random-trek",
-        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "longDescription": "Common advice for finding projects to work on is to solve a problem in your daily life. I'm a avid fan of Star Trek and often find myself wanting to watch an episode but not knowing which one to watch. I decided to build a simple app that would pick a random episode for me. I also wanted to learn more about Vue and the Composition API. This project was a great way to learn about Vue and the Composition API as it was simple enough to not get bogged down in complexity. I also wanted to improve my layout skills. I'm not a design-oriented person, so it's important for me to improve upon this weakness.",
         "technologies": ["Vue"],
-        "goals": ["Lorem ipsum dolor sit amet", "consectetur adipiscing elit", "sed do eiusmod tempor incididunt"]
+        "goals": ["Efficiently deploy a simple frontend app", "Learn Composition API", "Improve layout skills"],
+        "order": 2
     },
     {
-        "title": "Volunteer Management System",
-        "shortDescription": "A web application for managing volunteers.",
-        "url": "https://volunteer-app.trevorregister.com/login",
-        "image": "volunteer-app.png",
-        "github": "https://github.com/trevorregister/regional-burn-volunteering",
-        "longDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "technologies": ["Vue", "Node", "Express", "MongoDB"],
-        "goals": ["Lorem ipsum dolor sit amet", "consectetur adipiscing elit", "sed do eiusmod tempor incididunt"]
+        "title": "Trevor Register Portfolio",
+        "shortDescription": "This site!",
+        "url": "https://trevorregister.com",
+        "image": "portfolio.png",
+        "github": "https://github.com/trevorregister/my-site",
+        "longDescription": "I wanted to create a portfolio site to showcase my projects and skills.",
+        "technologies": ["Vue"],
+        "goals": [],
+        "order": 3
+    },
+    {
+        "title": "Cube Smasher",
+        "shortDescription": "API for a video rental service",
+        "image": "cube-smasher",
+        "url": null,
+        "github": "https://github.com/trevorregister/cube-smasher",
+        "longDescription": "My first web development project, a backend API for a video rental service. This project was created as part of a course on building RESTful APIs. I've included it here to show my progression as a developer. Cube Smasher wasn't ever deployed outside of a local environment, so only the GitHub link is provided",
+        "technologies": ["Node", "Express", "MongoDB"],
+        "goals": ["Learn the basics of building a RESTful API", "Learn Node, Express, and MongoDB"],
+        "order": 4
+    },
+    {
+        "title": "Time-Variant Teaching",
+        "shortDescription": "My (long since defunct) blog on teaching and learning.",
+        "longDescription": "When I was teaching high-school physics, I was an active part of the online physics education community. I used this blog to share my ideas, document my teaching journey, and to help other physics teachers. Regardless of my job title, I will always be an educator at heart.",
+        "url": "https://tjregister.wordpress.com/",
+        "image": "blog.png",
+        "github": null,
+        "technologies": ["Wordpress"],
+        "goals": [],
+        "order": 5
     }
 ]
