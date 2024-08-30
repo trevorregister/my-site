@@ -17,9 +17,14 @@
         </v-card-text>
         <v-card-text v-if="showFullCard">
             <h2 v-if="project.goals.length > 0">Goals</h2>
-            <v-list :items="project.goals"/>
+             <v-list density="compact">
+                <v-list-item v-for="goal in project.goals" :key="goal"
+                    prepend-icon="mdi-circle-small"
+                    :title="goal" 
+                />
+             </v-list>
             <h2>Tell me more</h2>
-            <p>{{ project.longDescription }}</p>
+            <div class="text-body-1">{{ project.longDescription }}</div>
         </v-card-text>
         <v-card-actions>
             <v-btn @click="expandProject(project)">
