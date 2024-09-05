@@ -6,7 +6,7 @@
         "image": "volunteer-app.png",
         "github": "https://github.com/trevorregister/regional-burn-volunteering",
         "longDescription": "My first full stack application. As a long-time attendee and leader within the Georgia Burning Man community, I wanted to create a tool to help manage volunteers for our annual event as this is a significant need within the community. This app allows users to sign up for shifts, view their schedule, and track their volunteer hours. It also allows team and event leads to create shifts, assign volunteers, and track volunteer hours. I also wanted to apply Clean Architecture principles to my backend as previous projects would have been cumbersome to scale and maintain. I opted to design many elements 'from scratch' as much as I could, such as my authentication system. I felt it important for me to understand fundamental principles before relying on libraries or frameworks.",
-        "technologies": ["Vue", "Node", "Express", "MongoDB"],
+        "technologies": ["Vue", "Node", "Express", "MongoDB", "Vuetify"],
         "goals": ["Deploy a full stack app", "Learn Clean Architecture", "Learn Vue"],
         "order": 1
     },
@@ -17,7 +17,7 @@
         "image": "random-trek.png",
         "github": "https://github.com/trevorregister/random-trek",
         "longDescription": "Common advice for finding projects to work on is to solve a problem in your daily life. I'm a avid fan of Star Trek and often find myself wanting to watch an episode but not knowing which one to watch. I decided to build a simple app that would pick a random episode for me. I also wanted to learn more about Vue and the Composition API. This project was a great way to learn about Vue and the Composition API as it was simple enough to not get bogged down in complexity. I also wanted to improve my layout skills. I'm not a design-oriented person, so it's important for me to improve upon this weakness.",
-        "technologies": ["Vue"],
+        "technologies": ["Vue", "Vuetify"],
         "goals": ["Efficiently deploy a simple frontend app", "Learn Composition API", "Improve layout skills"],
         "order": 2
     },
@@ -28,7 +28,7 @@
         "image": "portfolio.png",
         "github": "https://github.com/trevorregister/my-site",
         "longDescription": "I wanted to create a portfolio site to showcase my projects and skills.",
-        "technologies": ["Vue"],
+        "technologies": ["Vue", "Vuetify"],
         "goals": [],
         "order": 3
     },

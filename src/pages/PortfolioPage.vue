@@ -7,7 +7,7 @@
         </v-col>
       </v-row>
       <v-row v-if="!projectCardExpanded">
-          <v-col v-for="project in projects" :key="project.id" md="6">
+          <v-col v-for="project in _.orderBy(projects, 'order')" :key="project.id" md="6">
               <portfolio-card 
                 @expand-project="handleExpandProject(project)" 
                 :project="project"
@@ -28,6 +28,7 @@
   
   <script setup>
   import projects from '@/projects.json'
+  import _ from 'lodash'
   import PortfolioCard from '@/components/PortfolioCard.vue'
   import { ref } from 'vue'
 
