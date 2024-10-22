@@ -15,14 +15,14 @@
             prepend-icon="mdi-folder" 
             to="/portfolio"
             title="Portfolio"/>
-        <v-list-item 
+<!--         <v-list-item 
             prepend-icon="mdi-email" 
             to="/contact" 
             title="Contact"/>
         <v-list-item 
             prepend-icon="mdi-file-document" 
             to="/resume"
-            title="Resume"/>
+            title="Resume"/> -->
     </v-navigation-drawer>
 </template>
 

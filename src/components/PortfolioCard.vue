@@ -6,6 +6,7 @@
         <v-card-subtitle>
             <v-chip v-for="technology in project.technologies" :key="technology"
                 variant="outlined"
+                color="accent"
                 size="small"
                 class="mr-2"
             >
