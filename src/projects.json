@@ -19,7 +19,7 @@
         "longDescription": "Common advice for finding projects to work on is to solve a problem in your daily life. I'm a avid fan of Star Trek and often find myself wanting to watch an episode but not knowing which one to watch. I decided to build a simple app that would pick a random episode for me. I also wanted to learn more about Vue and the Composition API. This project was a great way to learn about Vue and the Composition API as it was simple enough to not get bogged down in complexity. I also wanted to improve my layout skills. I'm not a design-oriented person, so it's important for me to improve upon this weakness.",
         "technologies": ["Vue", "Vuetify"],
         "goals": ["Efficiently deploy a simple frontend app", "Learn Composition API", "Improve layout skills"],
-        "order": 2
+        "order": 3
     },
     {
         "title": "Trevor Register Portfolio",
@@ -30,7 +30,7 @@
         "longDescription": "I wanted to create a portfolio site to showcase my projects and skills.",
         "technologies": ["Vue", "Vuetify"],
         "goals": [],
-        "order": 3
+        "order": 4
     },
     {
         "title": "Cube Smasher",
@@ -41,7 +41,7 @@
         "longDescription": "My first web development project, a backend API for a video rental service. This project was created as part of a course on building RESTful APIs. I've included it here to show my progression as a developer. Cube Smasher wasn't ever deployed outside of a local environment, so only the GitHub link is provided",
         "technologies": ["Node", "Express", "MongoDB"],
         "goals": ["Learn the basics of building a RESTful API", "Learn Node, Express, and MongoDB"],
-        "order": 4
+        "order": 5
     },
     {
         "title": "Time-Variant Teaching",
@@ -52,6 +52,16 @@
         "github": null,
         "technologies": ["Wordpress"],
         "goals": [],
-        "order": 5
+        "order": 6
+    },
+    {
+        "title": "Vector Buddy",
+        "shortDescription": "Educational tool for teaching vector math within the context of high school physics.",
+        "longDescription": "In conjunction with a friend and colleague, we are currently developing a tool to help students better understand vector mathematics in relation to physics concepts with a focus on forces. This is currently a work in progress.",
+        "url": "https://fbd-buddy.vercel.app/",
+        "github": "https://github.com/trevorregister/fbd-buddy",
+        "technologies": ["Vue", "Vuetify", "Nuxt", "Konva"],
+        "goals": [],
+        "order": 2
     }
 ]
