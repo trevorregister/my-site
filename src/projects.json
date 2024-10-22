@@ -6,7 +6,7 @@
         "image": "volunteer-app.png",
         "github": "https://github.com/trevorregister/regional-burn-volunteering",
         "longDescription": "My first full stack application. As a long-time attendee and leader within the Georgia Burning Man community, I wanted to create a tool to help manage volunteers for our annual event as this is a significant need within the community. This app allows users to sign up for shifts, view their schedule, and track their volunteer hours. It also allows team and event leads to create shifts, assign volunteers, and track volunteer hours. I also wanted to apply Clean Architecture principles to my backend as previous projects would have been cumbersome to scale and maintain. I opted to design many elements 'from scratch' as much as I could, such as my authentication system. I felt it important for me to understand fundamental principles before relying on libraries or frameworks.",
-        "technologies": ["Vue", "Node", "Express", "MongoDB", "Vuetify"],
+        "technologies": ["Vue", "Node", "Express", "MongoDB", "Vuetify", "Pinia"],
         "goals": ["Deploy a full stack app", "Learn Clean Architecture", "Learn Vue"],
         "order": 1
     },
