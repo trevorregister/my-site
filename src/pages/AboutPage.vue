@@ -18,7 +18,7 @@
             <br>
             <p>
               I am currently employed at <hyper-link :url="links.pivot">Pivot Interactives</hyper-link> as the Senior Support Operations Manager. This role has afforded me the opportunity to hone my skills in web development and technical support. 
-              My pedagogical expertise combined with my technical skills make me a valuable asset to any EdTech team. This website is a testament to the web development skills I've developed.
+              My pedagogical expertise combined with my technical skills make me a valuable asset to any EdTech team.
               Check out my resume <hyper-link :url="pdfLink" :download="'TrevorRegisterResume.pdf'">here</hyper-link>.
             </p>
           </v-card-text>
@@ -40,11 +40,15 @@
       <v-col cols="8">
         <v-card>
           <v-card-title>
-            <h2>Continuing my carreer in EdTech</h2>
+            <h2>Continuing my career in EdTech</h2>
           </v-card-title>
           <v-card-text>
             <p>
-                My experience as a teacher and web development skills make me a unique asset to any EdTech team:
+              I am a versatility powerhouse. I have experience in full-stack web development, QA engineering, support engineering, curriculum development, instructional design, and product development.
+              Imagine a glass jar filled with marbles. The gaps between each marble are the problems my team faces. Pour some water into the jar and the gaps are filled. That's me. I'm the water.
+            </p>
+            <br>
+            My experience as a teacher and web development skills make me a unique asset to any EdTech team:
               <v-list>
                 <v-list-item prepend-icon="mdi-circle-small">Full-stack Web Development</v-list-item>
                 <v-list-item prepend-icon="mdi-circle-small">QA Engineering</v-list-item>
@@ -53,7 +57,7 @@
                 <v-list-item prepend-icon="mdi-circle-small">Instructional Design</v-list-item>
                 <v-list-item prepend-icon="mdi-circle-small">Product Development</v-list-item>
               </v-list>
-            </p>
+
           </v-card-text>
         </v-card>
       </v-col>
