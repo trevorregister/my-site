@@ -1,11 +1,6 @@
 <template>
   <v-container>
     <v-row>
-      <v-col>
-        <h1>About Me</h1>
-      </v-col>
-    </v-row>
-    <v-row>
       <v-col cols="8">
         <v-card>
           <v-card-title>
