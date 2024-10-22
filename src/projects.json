@@ -56,7 +56,7 @@
     },
     {
         "title": "Vector Buddy",
-        "shortDescription": "Educational tool for teaching vector math within the context of high school physics.",
+        "shortDescription": "Educational tool for teaching vector math within the context of high school physics. Currently in development.",
         "longDescription": "In conjunction with a friend and colleague, we are currently developing a tool to help students better understand vector mathematics in relation to physics concepts with a focus on forces. This is currently a work in progress.",
         "url": "https://fbd-buddy.vercel.app/",
         "github": "https://github.com/trevorregister/fbd-buddy",
